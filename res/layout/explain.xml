@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent" >
+
+      <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="此系統目的在於試算模擬產線上的工單上線時間" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:text="1.下載/上傳功能:\n\t\t僅提供內部ERP系統使用" />
+
+     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+        android:text="2.初始設定:\n\t\t設定每日工時,起算時間,換線時間及休息時段" />
+     
+       <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+        android:text="3.工單清單:\n\t\t調整工單順序,新增刪除更新工單資訊" />
+       
+        <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="5dp"
+        android:text="\t\t欄位說明:工單號碼\n\t\tseq: 工單順序 \n\t\tproduct no: 產品序號 \n\t\t製程:工單製程 \n\t\t(前後工單製程不同時系統會新增換線時間)\n\t\t數量:工單套數 \n\t\t工時:單片工單工時 \n\t\t起始:工單起始時間 \n\t\t結束:工單結束時間
+        " />
+          <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+        android:text="4.執行排程:\n\t\t依照工單清單的順序模擬工單上線時間" />
+           <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+        android:text="5.報表:\n\t\t每日實際工時與換線工時比例" />
+           
+          <TextView
+        android:id="@+id/t_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+        android:text="6.開發者:\n\t\tRoger Roan #14389\n\t\t版權所有拷貝必究" />   
+    
+</LinearLayout>
